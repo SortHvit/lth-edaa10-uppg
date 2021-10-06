@@ -28,7 +28,7 @@ public class TestNumberToGuess {
 		}
 		if (!nbrGen.isBiggerThan(solution- 1) || nbrGen.isBiggerThan(solution) || 
 				nbrGen.isBiggerThan(solution + 1)) {
-			System.out.println("isBggerThan ger fel resultat");
+			System.out.println("isBiggerThan ger fel resultat");
 		} else {
 			System.out.println("isBiggerThan ok");
 		}
