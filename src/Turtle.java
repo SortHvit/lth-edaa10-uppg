@@ -4,7 +4,7 @@ public class Turtle {
 	private double x,y;
 	private SimpleWindow w;
 	private boolean pen;
-	private int alfa;
+	private int alfa = 90;
   /** skapar en sköldpadda som ritar i ritfönstret w. 
       Från början befinner sig sköldpaddan i punkten xHome,yHome med pennan 
       lyft och huvudet pekande rakt uppåt i fönstret, dvs i negativ y-riktning  
